@@ -3,9 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>java-web-app</artifactId>
+	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>1.0</version>
+	<version>0.0.1-RELEASE</version>
 	
 	<name>Maven Web Application</name>
 	<url>http://mithuntechnologies.com</url>
@@ -18,13 +18,16 @@
 	</organization>
 
 	<properties>
-		<!-- versions -->
-		
-		<spring.version>5.0.7.RELEASE</spring.version>
-		<junit.version>4.12</junit.version>
+		<jdk.version>1.8</jdk.version>
+		<spring.version>5.1.2.RELEASE</spring.version>
+		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
+		<sonar.host.url>http://18.218.140.72:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
 	</properties>
 
 	<dependencies>
@@ -102,12 +105,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.235.8.113:8081/repository/flipkart-release/</url>
+	      <url>http://18.117.189.154:8081/repository/system-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.235.8.113:8081/repository/flipkart-snapshot/</url>
+	      <url>http://18.117.189.154:8081/repository/system-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement> -->
 	
