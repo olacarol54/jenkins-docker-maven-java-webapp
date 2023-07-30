@@ -101,18 +101,20 @@
 
 	</dependencies>
 	
-	<!-- <distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://18.117.189.154:8081/repository/system-release/</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.117.189.154:8081/repository/system-snapshot/</url>
-	    </snapshotRepository>
-	</distributionManagement> -->
+	<distributionManagement>
+      <repository>
+        <id>nexus</id>
+        <name>Sysmsify Technologies Releases Nexus Repository</name>
+        <url>http://18.117.189.154:8081/repository/system-release/</url>
+      </repository>
+      
+      <snapshotRepository>
+        <id>nexus</id>
+        <name>Sysmsify Technologies Snapshot Nexus Repository </name>
+        <url>http://18.117.189.154:8081/repository/system-snapshot/</url>
+      </snapshotRepository>
+      
+  </distributionManagement>
 	
 	<build>
 		<plugins>
